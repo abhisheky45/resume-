@@ -105,10 +105,14 @@ function scrollActive() {
     if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) { 
 
         document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.add('active-link')
+         document.querySelector('.btn blue-btn a[href*=' + sectionId + ']')
+
 
     }  else {
 
       document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.remove('active-link')
+         document.querySelector('.btn blue-btn a[href*=' + sectionId + ']')
+
 
     }
   })
